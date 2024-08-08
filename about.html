@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Inter:wght@400;500;600;700;800&family=Lexend:wght@400;500;600;700&family=Mr+Dafoe&display=swap"
       rel="stylesheet"
     />
 
@@ -23,10 +23,10 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
     <!-- PAGE TITLE -->
-    <title>Work - Jane Doe</title>
+    <title>About - Jane Doe</title>
     <meta
       name="description"
-      content="Explore an impressive collection of case studies showcasing a my diverse skill set, innovative solutions, and successful projects."
+      content="Hi, I'm Jane Doe, a passionate developer, entrepreneur, and general technology enthusiast living in San Francisco."
     />
   </head>
 
@@ -71,110 +71,16 @@
               Home
             </a>
             <a
-              href="about.html"
+              href="index.html#Projects"
               class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25"
             >
-              About
+              Projects
             </a>
-            <a
-              href="work.html"
-              class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-100 after:content-[&quot;&quot;] font-semibold text-slate-900"
-            >
-              Work
-            </a>
-            <a
-              href="blog.html"
-              class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25"
-            >
-              Blog
-            </a>
-            <a
-              href="contact.html"
-              class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25"
-            >
-              Contact
-            </a>
+            
 
-            <!-- Template pages dropdown container -->
-            <div class="relative" x-data="{ open: false }">
-              <!-- Pages dropdown button -->
-              <button
-                type="button"
-                class="flex items-center font-medium duration-200 ease-in-out group"
-                :class="open ? 'text-slate-900' : 'text-slate-700  hover:text-slate-900'"
-                @click="open = true"
-              >
-                <span>Pages</span>
+            
 
-                <!-- Heroicon name: solid/chevron-down -->
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 ml-2 duration-300"
-                  :class="open ? 'rotate-180 text-slate-900' : 'text-slate-600 group-hover:text-slate-800'"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-
-              <!-- Pages dropdown -->
-              <div
-                style="display: none"
-                class="absolute right-0 z-20 mt-3 w-52 space-y-1 rounded-lg bg-white p-2.5 drop-shadow filter focus:outline-none outline-none"
-                x-show.transition="open"
-                @click.away="open = false"
-              >
-                <a
-                  href="index.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Home
-                </a>
-                <a
-                  href="about.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  About
-                </a>
-                <a
-                  href="work.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Work
-                </a>
-                <a
-                  href="case-study.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Case study
-                </a>
-                <a
-                  href="blog.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Blog
-                </a>
-                <a
-                  href="article.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Blog post
-                </a>
-                <a
-                  href="contact.html"
-                  class="block py-3.5 px-5 font-medium rounded-md text-slate-700 transition duration-300 ease-in-out hover:bg-slate-50 hover:text-slate-900"
-                >
-                  Contact
-                </a>
-              </div>
-            </div>
-          </div>
-
+               
           <div class="flex items-center">
             <!-- Call to action -->
             <a
@@ -372,479 +278,319 @@
       </div>
     </header>
 
-    <!-- Case Studies -->
-    <section class="py-16 overflow-hidden bg-white sm:pt-24 lg:pt-32">
-      <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
-          <div
-            class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between"
+    <!-- About Hero -->
+    <section class="relative bg-slate-50/50">
+      <!-- Background gradient -->
+      <image
+        src="./images/about-hero-bg.svg"
+        alt=""
+        class="absolute inset-0 object-cover object-left w-full h-full lg:w-2/3"
+      />
+
+      <!-- Content -->
+      <div
+        class="relative max-w-screen-xl px-5 py-16 mx-auto sm:py-24 lg:py-32 sm:px-6 lg:px-8"
+      >
+        <div
+          class="max-w-3xl px-4 mx-auto sm:px-6 lg:mx-0 lg:w-2/3 lg:max-w-none lg:px-8 lg:pr-16"
+        >
+          <h1
+            class="text-5xl font-semibold font-display text-slate-900 sm:text-6xl"
           >
+            Hi,
+            <!-- Highlighted text -->
+            <span class="relative whitespace-nowrap">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="249"
+                height="22"
+                viewBox="0 0 249 22"
+                fill="currentColor"
+                class="absolute top-2/3 left-0 h-[0.6em] w-full fill-sky-200/75"
+              >
+                <path
+                  d="M247.564 18.5807C241.772 13.3568 232.473 12.7526 225.225 11.4427C217.124 9.97395 208.996 8.57031 200.846 7.46093C186.542 5.51302 172.169 4.08854 157.79 3.01562C126.033 0.645827 94.0929 0.0338481 62.3387 2.36979C42.1785 3.85416 22.008 5.90885 2.32917 10.8463C-0.0155171 11.4349 0.207047 14.6719 2.6889 14.7083C22.0261 14.9896 41.3866 12.6406 60.7109 11.8568C79.9471 11.0807 99.2274 10.6719 118.484 10.9557C142.604 11.3125 166.719 12.8333 190.722 15.5156C199.956 16.5469 209.195 17.6016 218.411 18.8255C227.864 20.0807 237.259 22 246.767 20.7422C247.709 20.6198 248.426 19.3568 247.564 18.5807Z"
+                />
+              </svg>
+              <span class="relative">I’m Jane</span>
+            </span>
+            and I’m a designer & developer
+          </h1>
+          <p class="mt-8 text-lg leading-8 text-slate-700">
+            Pumpkin seasonal rich froth decaffeinated trifecta organic blue
+            panna doppio. Body a whipped lungo variety spice seasonal body press
+            mountain con macchiato. Medium coffee single white to caramelization
+            siphon con siphon id as con go single. So ristretto pumpkin affogato
+            cinnamon breve turkish organic. Lait black kopi dripper spice lait
+            cultivar robusta panna whipped and sit aromatic sugar.
+          </p>
+          <p class="mt-6 text-lg leading-8 text-slate-700">
+            And café frappuccino extraction filter froth sugar siphon coffee
+            pumpkin press milk ristretto et au. Trade instant aged as wings bar
+            seasonal pumpkin barista turkish shot go seasonal robusta. Strong
+            iced lungo frappuccino espresso redeye macchiato aftertaste trade
+            pot. Seasonal turkish mocha wings sit crema blue au and grounds eu
+            cortado café cup. Filter viennese bar seasonal wings siphon as
+            frappuccino go luwak single mazagran.
+          </p>
+          <p class="mt-16 text-3xl text-slate-700 font-cursive">Jane Doe</p>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div
+        class="relative h-96 w-full md:h-[600px] lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/3"
+      >
+        <image
+          src="./images/about-hero.jpg"
+          alt=""
+          class="absolute inset-0 object-cover object-top w-full h-full"
+        />
+        <svg
+          width="229"
+          height="40"
+          viewBox="0 0 229 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute left-0 w-auto h-8 -translate-x-1/2 bottom-16 mt-14 sm:mt-20 sm:h-10"
+        >
+          <g clip-path="url(#clip0_204_150)">
+            <path
+              d="M1 19L29.4 39L57.7 19L86.1 39L114.5 19L142.8 39L171.2 19L199.6 39L228 19"
+              stroke="#0369A1"
+              stroke-width="2"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M1 19L29.4 39L57.7 19L86.1 39L114.5 19L142.8 39L171.2 19L199.6 39L228 19"
+              stroke="black"
+              stroke-opacity="0.2"
+              stroke-width="2"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M1 1L29.4 21L57.7 1L86.1 21L114.5 1L142.8 21L171.2 1L199.6 21L228 1"
+              stroke="#BAE6FD"
+              stroke-width="2"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_204_150">
+              <rect width="229" height="40" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="relative py-16 bg-white overflow-x-clip sm:py-24 lg:py-32">
+      <!-- Container -->
+      <div class="relative max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
+        <div
+          class="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        >
+          <!-- Section header with button -->
+          <div>
             <h2
-              class="text-5xl font-semibold font-display text-slate-900 sm:text-6xl lg:leading-none"
+              class="text-4xl font-semibold font-display text-slate-900 sm:text-5xl"
             >
-              Case Studies
+              My career
+
+              <!-- Highlighted text -->
+              <span class="relative whitespace-nowrap">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="167"
+                  height="24"
+                  viewBox="0 0 167 24"
+                  fill="currentColor"
+                  class="absolute top-2/3 left-0 h-[0.6em] w-full fill-sky-200/75"
+                >
+                  <g clip-path="url(#clip0_257_225)">
+                    <path
+                      d="M166.409 20.2699C162.515 14.571 156.265 13.9119 151.392 12.4829C145.948 10.8807 140.484 9.3494 135.006 8.13918C125.391 6.01418 115.729 4.4602 106.064 3.28974C84.7177 0.704517 63.2477 0.036903 41.9031 2.5852C28.3517 4.20452 14.7934 6.44599 1.5656 11.8324C-0.0104672 12.4744 0.139137 16.0057 1.8074 16.0454C14.8056 16.3522 27.8194 13.7897 40.8089 12.9346C53.7392 12.088 66.6991 11.642 79.6433 11.9517C95.8562 12.3409 112.066 14 128.2 16.9261C134.407 18.0511 140.617 19.2017 146.812 20.5369C153.167 21.9062 159.481 24 165.873 22.6278C166.506 22.4943 166.988 21.1164 166.409 20.2699Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_257_225">
+                      <rect width="167" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <span class="relative text-sky-700">journey</span>
+              </span>
+              so far
             </h2>
-
-            <p class="text-lg text-slate-700 lg:ml-auto lg:max-w-lg">
-              Dive into my diverse range of projects, showcasing my expertise in
-              software development, design, and dedication to delivering
-              exceptional results.
+            <p class="mt-6 text-lg leading-relaxed text-slate-700">
+              Panna french americano macchiato breve roast cinnamon cortado
+              strong white pumpkin et single press aftertaste.
             </p>
+
+            <!-- Download CV button -->
+            <button
+              class="mt-10 text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-slate-100 hover:bg-slate-200/60 hover:shadow-sky-100/50 bg-slate-100/80 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none"
+            >
+              Download CV
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-[18px] w-[18px] text-slate-600"
+              >
+                <g fill="currentColor">
+                  <path
+                    d="M12,1a1,1,0,0,0-1,1v8H7a1,1,0,0,0-.768,1.641l5,6a1,1,0,0,0,1.536,0l5-6A1,1,0,0,0,17,10H13V2A1,1,0,0,0,12,1Z"
+                    fill="currentColor"
+                  ></path>
+                  <path d="M22,21H2a1,1,0,0,0,0,2H22a1,1,0,0,0,0-2Z"></path>
+                </g>
+              </svg>
+            </button>
           </div>
 
-          <!-- Tabs -->
-          <ul
-            class="mt-14 gap-x-1.5 gap-y-4 md:gap-x-1 lg:mt-16 lg:gap-2 flex flex-wrap items-center"
+          <!-- Work list -->
+          <ol
+            class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 [counter-reset:section] sm:grid-cols-2 lg:gap-y-16"
           >
-            <!-- Active: "bg-slate-50 text-sky-800 shadow-sm shadow-sky-100/50 ring-1 ring-slate-900/5", Inactive: "bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95", Default: "inline-block rounded-full px-5 py-1.5 text-md font-medium transition" -->
-
-            <li>
-              <!-- Active tab -->
-              <a
-                href="#0"
-                class="inline-block rounded-full px-5 py-1.5 text-md font-medium transition bg-slate-50 text-sky-800 shadow-sm shadow-sky-100/50 ring-1 ring-slate-900/5"
-              >
-                All Projects
-              </a>
+            <!-- Work 1 -->
+            <li
+              class="relative [counter-increment:section] before:absolute before:right-0 before:-top-7 before:font-mono before:text-9xl before:font-black before:leading-none before:text-slate-50 before:content-[counter(section,decimal-leading-zero)]"
+            >
+              <div>
+                <div
+                  class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5"
+                >
+                  <img src="./images/logos/icons/adobe.png" alt="Adobe" />
+                </div>
+                <p class="text-sm font-medium text-sky-700">
+                  Dec 2016 - Oct 2017
+                </p>
+                <p
+                  class="mt-2 text-lg font-semibold font-display text-slate-900"
+                >
+                  Adobe
+                </p>
+              </div>
+              <p class="mt-3 text-base leading-7 text-slate-700">
+                Breve macchiato bar cortado dripper shot sweet robust qui. Et
+                café whipped go white that espresso fair origin pot cream est
+                cup.
+              </p>
             </li>
 
-            <li>
-              <a
-                href="#0"
-                class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition"
-              >
-                Consulting
-              </a>
+            <!-- Work 2 -->
+            <li
+              class="relative [counter-increment:section] before:absolute before:right-0 before:-top-7 before:font-mono before:text-9xl before:font-black before:leading-none before:text-slate-50 before:content-[counter(section,decimal-leading-zero)]"
+            >
+              <div>
+                <div
+                  class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5"
+                >
+                  <img src="./images/logos/icons/dropbox.png" alt="Dropbox" />
+                </div>
+                <p class="text-sm font-medium text-sky-700">
+                  Nov 2017 - Apr 2018
+                </p>
+                <p
+                  class="mt-2 text-lg font-semibold font-display text-slate-900"
+                >
+                  Dropbox
+                </p>
+              </div>
+              <p class="mt-3 text-base leading-7 text-slate-700">
+                Breve macchiato bar cortado dripper shot sweet robust qui. Et
+                café whipped go white that espresso fair origin pot cream est
+                cup.
+              </p>
             </li>
 
-            <li>
-              <a
-                href="#0"
-                class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition"
-              >
-                Branding
-              </a>
+            <!-- Work 3 -->
+            <li
+              class="relative [counter-increment:section] before:absolute before:right-0 before:-top-7 before:font-mono before:text-9xl before:font-black before:leading-none before:text-slate-50 before:content-[counter(section,decimal-leading-zero)]"
+            >
+              <div>
+                <div
+                  class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5"
+                >
+                  <img src="./images/logos/icons/gumroad.png" alt="Gumroad" />
+                </div>
+                <p class="text-sm font-medium text-sky-700">
+                  Apr 2018 - Jan 2019
+                </p>
+                <p
+                  class="mt-2 text-lg font-semibold font-display text-slate-900"
+                >
+                  Gumroad
+                </p>
+              </div>
+              <p class="mt-3 text-base leading-7 text-slate-700">
+                Breve macchiato bar cortado dripper shot sweet robust qui. Et
+                café whipped go white that espresso fair origin pot cream est
+                cup.
+              </p>
             </li>
 
-            <li>
-              <a
-                href="#0"
-                class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition"
+            
+
+            <!-- Handwritten text with arrow -->
+            <li
+              class="relative mt-3 flex h-fit items-center font-writing text-2xl tracking-wide text-slate-600 sm:top-6 sm:left-14 sm:mt-0 sm:block sm:text-[27px] md:left-20"
+            >
+              <span
+                class="inline-block w-52 max-w-[240px] transform sm:w-auto sm:-rotate-12"
               >
-                Custom Website
-              </a>
+                I am currently here in my journey :D
+              </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="124"
+                height="121"
+                viewBox="0 0 124 121"
+                fill="none"
+                class="relative w-24 h-auto transform rotate-90 -translate-y-5 -left-4 -scale-y-100 text-slate-600 sm:-left-8 sm:w-32 sm:translate-y-2 sm:-rotate-6 sm:scale-100"
+              >
+                <g clip-path="url(#clip0_257_335)">
+                  <path
+                    d="M101.672 26.3321C96.8237 38.134 92.186 44.0573 79.0339 44.4141C70.6979 44.6403 60.8529 42.694 53.4527 38.7688C49.1632 36.4936 56.8633 35.9887 58.3238 36.046C75.2213 36.7084 91.469 47.7751 94.8076 64.9225C96.9834 76.0979 88.4245 81.9067 78.6041 84.1752C63.6278 87.6349 47.752 81.2525 36.0397 72.0991C32.1436 69.0541 19.8172 60.5149 22.0934 54.2698C23.9793 49.0954 31.7507 55.0061 34.018 56.9118C37.2506 59.6288 44.0244 65.7437 43.9149 70.3449C43.7576 76.9438 32.7995 78.0771 28.2217 77.7848C19.5283 77.2298 10.3327 73.6012 2.05876 71.0225C1.4496 70.8325 5.37871 69.9759 6.06477 69.8198C8.02976 69.3721 9.72632 68.1441 11.7325 67.8657C13.2208 67.6592 21.2769 68.287 16.2554 69.947C14.4855 70.532 2.71379 69.3189 2.58655 69.7453C2.06535 71.4868 10.2182 79.8642 11.7371 81.4008C15.3955 85.1003 14.5874 73.4626 14.2296 71.9325"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_257_335">
+                    <rect
+                      width="106"
+                      height="67"
+                      fill="white"
+                      transform="matrix(-0.748497 0.663138 0.663138 0.748497 79.3407 0)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
             </li>
-
-            <li>
-              <a
-                href="#0"
-                class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition"
-              >
-                Product Design
-              </a>
-            </li>
-          </ul>
-
-          <!-- Case studies list-->
-          <div
-            class="grid max-w-xl gap-12 mx-auto mt-12 sm:mt-16 lg:mx-0 lg:mt-24 lg:max-w-none lg:grid-cols-2 lg:gap-10 xl:gap-24 lg:pb-32"
-          >
-            <!-- 1st case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-01.jpg"
-                  alt="Horizons in Perspective"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-2">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  Horizons in Perspective
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  I helped Horizons in Perspective develop a new branding and
-                  website experience, as well as an engaging product design for
-                  their bi-annual journal publication.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- 2nd case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-02.jpg"
-                  alt="Wavvy"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-1">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  Wavvy
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  Revamping Wavvy's online presence with a website redesign,
-                  branding enhancement, and strategic consulting, driving user
-                  engagement and growth.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- 3rd case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-03.jpg"
-                  alt="Banter"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-2">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  Banter
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  Transforming Banter's digital presence through website
-                  redesign, branding enhancement, content strategy consulting,
-                  and AI integration for content creation.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- 4th case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-04.jpg"
-                  alt="Bright School"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-1">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  Bright School
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  Revitalizing Bright School's online presence with a redesigned
-                  website, branding, and Google Ads campaign, resulting in a
-                  200% enrollment increase.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- 5th case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-05.jpg"
-                  alt="Crator Studio"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-2">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  Crator Studio
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  Revitalizing Crator Studio's website and branding, while
-                  providing consulting services that enhanced teamwork,
-                  resulting in doubled productivity.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- 6th case study -->
-            <div
-              class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32"
-            >
-              <a
-                href="case-study.html"
-                class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
-              >
-                <img
-                  src="./images/case_studies/case-study-thumbnail-06.jpg"
-                  alt="NebulaTech Icon Set"
-                  class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"
-                ></div>
-              </a>
-              <div class="flex flex-col items-center order-1">
-                <h3
-                  class="text-center font-display text-[28px] font-medium text-slate-900"
-                >
-                  NebulaTech Icon Set
-                </h3>
-                <p class="mt-5 text-base leading-8 text-center text-slate-700">
-                  Created a cohesive and versatile icon set for NebulaTech and
-                  its satellite companies, unifying their visual language and
-                  enhancing brand recognition across diverse tech industry
-                  sectors.
-                </p>
-                <a
-                  href="case-study.html"
-                  class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
-                >
-                  View Case study
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Pagination -->
-          <div class="flex items-center justify-center gap-2 mt-20">
-            <span
-              class="inline-flex items-center justify-center w-20 h-10 text-sm font-medium rounded-full shadow-sm bg-slate-50 text-slate-500/60 shadow-sky-100/50 ring-1 ring-slate-900/5"
-            >
-              Prev
-            </span>
-            <span
-              class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5"
-            >
-              1
-            </span>
-            <a
-              href="#0"
-              class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex"
-            >
-              2
-            </a>
-            <a
-              href="#0"
-              class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex"
-            >
-              3
-            </a>
-            <span
-              href="#0"
-              class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-slate-50 text-slate-500/60 shadow-sky-100/50 ring-1 ring-slate-900/5"
-            >
-              ...
-            </span>
-            <a
-              href="#0"
-              class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
-            >
-              5
-            </a>
-            <a
-              href="#0"
-              class="inline-flex items-center justify-center w-20 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
-            >
-              Next
-            </a>
-          </div>
+          </ol>
         </div>
       </div>
     </section>
 
-    <!-- Footer Container -->
-    <section class="pt-12 sm:pt-16">
-      <!-- Newsletter CTA -->
-      <div class="relative">
-        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-slate-900"></div>
-        <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-          <div
-            class="relative px-5 py-12 overflow-hidden rounded-2xl bg-sky-700 sm:px-16 lg:py-14"
-          >
-            <!-- Background gradient -->
-            <img
-              src="./images/newsletter-bg.svg"
-              alt=""
-              class="absolute inset-0 object-cover object-right w-full h-full"
-            />
 
-            <!-- Content -->
-            <div class="relative flex flex-col items-center w-full lg:flex-row">
-              <div class="max-w-2xl text-center lg:pr-4 lg:text-left">
-                <h3
-                  class="text-4xl font-semibold text-white font-display sm:text-5xl"
-                >
-                  Subscribe to my newsletter
-                </h3>
-                <p
-                  class="max-w-lg mx-auto mt-4 text-lg text-sky-50 lg:mx-0 lg:mt-6"
-                >
-                  Join 10,000+ designers and get creative site breakdowns,
-                  design musings and tips every Monday.
-                </p>
-              </div>
+   
 
-              <!-- Email form -->
-              <form
-                action="#"
-                method="post"
-                class="relative z-10 w-full max-w-lg mt-10 lg:mt-0"
-              >
-                <input
-                  type="email"
-                  class="h-14 w-full rounded-full border-0 bg-white/10 py-3.5 pl-5 pr-32 text-sm leading-5 text-sky-50 placeholder-sky-100/90 outline-none ring-1 ring-white/25 backdrop-blur duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-white/30 sm:pl-6"
-                  required
-                  placeholder="Enter your email"
-                  autocomplete="email"
-                />
-                <button
-                  type="submit"
-                  class="absolute right-1.5 top-1.5 inline-flex h-11 items-center rounded-full bg-sky-900 py-3 px-5 text-sm font-semibold text-sky-50 outline-none transition duration-200 ease-in-out hover:bg-sky-800 focus:outline-none sm:px-7 sm:text-md"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
+   
+   
+
+           
 
             <!-- Background illustration -->
             <svg
@@ -898,7 +644,7 @@
               <div class="hidden lg:block">
                 <!-- Call to action button for large screens -->
                 <a
-                  href="#0"
+                  href="#"
                   class="mt-12 bg-white hover:bg-sky-50 text-slate-700 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none"
                 >
                   Book a call
@@ -929,7 +675,7 @@
 
               <!-- Call to action button for small screens -->
               <a
-                href="#0"
+                href="#"
                 class="mt-10 inline-flex items-center justify-center gap-x-2.5 rounded-full bg-white py-3 px-7 text-md font-semibold leading-none text-slate-700 duration-200 ease-in-out hover:bg-sky-50 lg:hidden"
               >
                 Book a call
@@ -953,7 +699,7 @@
               >
                 <!-- Email -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
@@ -975,7 +721,7 @@
 
                 <!-- Dribbble -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
@@ -999,7 +745,7 @@
 
                 <!-- Instagram -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
@@ -1026,7 +772,7 @@
 
                 <!-- Twitter -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
@@ -1049,7 +795,7 @@
 
                 <!-- LinkedIn -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
@@ -1070,7 +816,7 @@
 
                 <!-- Github -->
                 <a
-                  href="#0"
+                  href="#"
                   class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
                 >
                   <svg
